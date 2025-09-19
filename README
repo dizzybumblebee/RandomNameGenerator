@@ -1,0 +1,9 @@
+! Work in progress !
+
+Simple java-based name generator
+
+Planned:
+- Generates (first) names based on given language's letter set
+- Customizable: Accept pre-set letter picking patterns ("consonant-vowel", "consonant-vowel-vowel" etc)
+- Extensible: Can easily be expanded with additional languages and letter sets
+- Various outputs: GUI as well as export to .txt, .csv and more
