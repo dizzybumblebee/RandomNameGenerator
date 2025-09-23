@@ -7,7 +7,7 @@ import java.util.List;
 public abstract class TypePattern {
 
     private int position = 0;
-    private List<LetterType> pattern;
+    private final List<LetterType> pattern;
 
     protected TypePattern() {
         this.pattern = List.copyOf(buildPattern());

@@ -14,8 +14,7 @@ public class CVPattern extends TypePattern {
     }
 
     protected List<LetterType> buildPattern() {
-        List<LetterType> pattern = new ArrayList<>(List.of(LetterType.CONSONANT, LetterType.VOWEL));
-        return pattern;
+        return new ArrayList<>(List.of(LetterType.CONSONANT, LetterType.VOWEL));
     }
 
 }
