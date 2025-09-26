@@ -9,7 +9,7 @@ public class PatternTest {
     public TypePattern pattern;
 
     @BeforeEach
-    public void setUp() {
+    public void setUpCV() {
         this.pattern = new CVPattern();
     }
 
